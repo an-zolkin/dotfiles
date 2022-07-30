@@ -1,0 +1,69 @@
+# Color themes
+themes:
+  vscode: &vscode
+    primary:
+      background: "#1E1E1E"
+      foreground: "#D4D4D4"
+    cursor:
+      text: "#1d1f21"
+      cursor: "#cccccc"
+    normal:
+      black: "#000000"
+      red: "#cd3131"
+      green: "#0dbc79"
+      yellow: "#e5e510"
+      blue: "#2472c8"
+      magenta: "#bc3fbc"
+      cyan: "#11a8cd"
+      white: "#e5e5e5"
+    bright:
+      black: "#666666"
+      red: "#f14c4c"
+      green: "#23d18b"
+      yellow: "#f5f543"
+      blue: "#3b8eea"
+      magenta: "#d670d6"
+      cyan: "#29b8db"
+      white: "#e5e5e5"
+
+shell:
+  program: /bin/zsh
+  args:
+    - -l
+    - -c
+    - "tmux a -t $(tmux ls | grep -v attached | grep -o '^[[:digit:]]*' | head -1) || tmux"
+
+# Font configuration
+font:
+  # Normal (roman) font face
+  normal:
+    family: MesloLGS NF
+    style: Regular
+
+  # Bold font face
+  bold:
+    family: MesloLGS NF
+    style: Bold
+
+  # Italic font face
+  italic:
+    family: MesloLGS NF
+    style: Italic
+
+  # Bold italic font face
+  bold_italic:
+    family: MesloLGS NF
+    style: Bold Italic
+
+# If `true`, bold text is drawn using the bright color variants.
+draw_bold_text_with_bright_colors: true
+
+# Current color theme
+colors: *vscode
+
+selection:
+  # When set to `true`, selected text will be copied to the primary clipboard.
+  save_to_clipboard: true
+
+# Live config reload (changes require restart)
+live_config_reload: true
