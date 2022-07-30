@@ -1,0 +1,161 @@
+{
+  "telemetry.telemetryLevel": "off",
+  "window.menuBarVisibility": "hidden",
+  "window.zoomLevel": 0.1,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code Retina, Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 25,
+  "editor.letterSpacing": 0.5,
+  "editor.formatOnSave": true,
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.suggestSelection": "first",
+  "editor.wordWrap": "on",
+  "editor.minimap.enabled": false,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": false,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "explorer.sortOrder": "type",
+  "explorer.compactFolders": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 5,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.fontSize": 14,
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "files.insertFinalNewline": true,
+  "files.autoGuessEncoding": true,
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true,
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/node_modules": true
+  },
+  "files.associations": {
+    "*.html.erb": "erb"
+  },
+  "zenMode.fullScreen": true,
+  "zenMode.hideActivityBar": true,
+  "zenMode.hideLineNumbers": true,
+  "zenMode.hideStatusBar": true,
+  "zenMode.hideTabs": true,
+  "solargraph.diagnostics": true,
+  "solargraph.formatting": true,
+  "[ruby]": {
+    "editor.defaultFormatter": "castwide.solargraph"
+  },
+
+  "javascript.suggest.paths": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.suggest.paths": false,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.vueIndentScriptAndStyle": true,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.tabSize": 4
+  },
+  "python.languageServer": "Pylance",
+  "[java]": {
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "[go]": {
+    "editor.tabSize": 8,
+    "editor.insertSpaces": false,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.suggest.snippetsPreventQuickSuggestions": false
+  },
+  "crates.incompatibleDecorator": "🚨 Latest: ${version}",
+  "crates.compatibleDecorator": "",
+  "rust-analyzer.inlayHints.enable": false,
+  "rust-analyzer.lens.implementations": false,
+  "rust-analyzer.diagnostics.enableExperimental": false,
+  "[dart]": {
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "csharp.referencesCodeLens.enabled": false,
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "todo-tree.highlights.enabled": false,
+  "html.format.indentInnerHtml": true,
+  "html.format.indentHandlebars": true,
+  "material-icon-theme.hidesExplorerArrows": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
+  "gitlens.statusBar.enabled": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "emmet.includeLanguages": {
+    "erb": "html",
+    "phoenix-heex": "html",
+    "html-eex": "html",
+    "typesctiptreact": "html"
+  },
+  "html.format.templating": true,
+  "codesnap.shutterAction": "copy",
+  "codesnap.showWindowControls": false,
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": true,
+    "plaintext": false,
+    "markdown": false
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "[erb]": {
+    "editor.defaultFormatter": "aliariff.vscode-erb-beautify"
+  }
+}
